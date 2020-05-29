@@ -70,6 +70,7 @@ void MainWindow::imageProcessing(QString fileName)
 
 void MainWindow::showResults()
 {
+    //TODO update demo 
 
     cv::Mat image, image2;
     image = cv::imread("/home/kaworu/Pictures/LungDB/Nodule154images/Nodule_JPEG/JPCLN009.jpg");
@@ -115,6 +116,7 @@ void MainWindow::on_treeView_clicked(const QModelIndex &index)
 
 void MainWindow::on_actionAbout_triggered()
 {
+    //TODO update demo 
     QMessageBox msgBox;
     msgBox.setIcon(QMessageBox::Information);
     msgBox.setWindowTitle("Resultado");
